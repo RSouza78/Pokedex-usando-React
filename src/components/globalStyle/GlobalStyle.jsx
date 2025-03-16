@@ -8,6 +8,7 @@ const GlobalStyle = createGlobalStyle`
 
   .dark-mode {
     background-color: #121212;
+    color: #000000;
   }
 `;
 

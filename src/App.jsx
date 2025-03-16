@@ -49,7 +49,7 @@ const AppContainer = styled.div`
       : "url('/light.jpg')"};
   background-size: cover;
   background-position: center;
-  background-attachment: fixed;  /* Alterado para fixed para efeito parallax */
+  background-attachment: fixed;
   min-height: 100vh;
   width: 100vw;
   transition: background-image 0.5s ease-in-out;
