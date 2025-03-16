@@ -217,6 +217,7 @@ const Section = styled.section`
         font-size: 16px;
         box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.9);
         transition: all 0.3s ease;
+        display: block;
     }
 
     @media (max-width: 768px) {
