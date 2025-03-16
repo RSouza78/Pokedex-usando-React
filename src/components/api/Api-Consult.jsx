@@ -69,7 +69,7 @@ function ApiConsult() {
             <Div>
                 <InputSearch onSearch={loadApiPokemon} />
                 <Select onChange={(e) => setSelectedType(e.target.value)}>
-                    <option value="">Escolha um filtro</option>
+                    <option value="">Escolha por tipo</option>
                     {types
                         .filter((type) => type.name !== "unknown" && type.name !== "stellar")
                         .map((type) => (
